@@ -98,12 +98,12 @@ class ProductDetail extends DetailUtil {
       title: '名称',
       field: 'name',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '学名',
       field: 'scientificName',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '级别',
       field: 'rank',
@@ -118,7 +118,7 @@ class ProductDetail extends DetailUtil {
       title: '古树产地',
       field: 'originPlace',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '区域',
       field: 'province',
@@ -128,7 +128,7 @@ class ProductDetail extends DetailUtil {
       title: '乡政/街道',
       field: 'town',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '列表图片',
       field: 'listPic',

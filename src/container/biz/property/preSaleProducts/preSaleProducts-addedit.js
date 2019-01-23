@@ -43,12 +43,12 @@ class ProductsAddEdit extends DetailUtil {
             title: '名称',
             field: 'name',
             required: true,
-            maxlength: 30
+            maxlength: 100
         }, {
             title: '学名',
             field: 'scientificName',
             required: true,
-            maxlength: 30
+            maxlength: 100
         }, {
             title: '级别',
             field: 'rank',
@@ -63,7 +63,7 @@ class ProductsAddEdit extends DetailUtil {
             title: '属地',
             field: 'originPlace',
             required: true,
-            maxlength: 30
+            maxlength: 100
         }, {
             title: '区域',
             field: 'province',
@@ -73,7 +73,7 @@ class ProductsAddEdit extends DetailUtil {
             title: '乡政/街道',
             field: 'town',
             required: true,
-            maxlength: 30
+            maxlength: 100
         }, {
           title: '单棵树产量',
           field: 'singleOutput',

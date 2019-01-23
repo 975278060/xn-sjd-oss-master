@@ -32,7 +32,7 @@ class ConserveAddEdit extends DetailUtil {
       title: '名称',
       field: 'projectName',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '描述',
       field: 'description',

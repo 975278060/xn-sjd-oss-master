@@ -81,7 +81,7 @@ class ProductsAddEdit extends DetailUtil {
       title: '名称',
       field: 'name',
       required: true,
-      maxlength: 30
+      maxlength: 100
     }, {
       title: '发货地',
       field: 'deliverPlace'

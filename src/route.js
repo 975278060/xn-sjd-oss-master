@@ -95,10 +95,15 @@ const ROUTES = [
     path: '/public/banner/addedit',
     component: asyncComponent(() => import('container/public/banner-addedit/banner-addedit'))
   },
-  // 系统管理 -- 推文图 -- 推文图管理
+  // 系统管理 --广告位管理-- 推文图 -- 推文图管理
   {
     path: '/public/tweets',
     component: asyncComponent(() => import('container/public/tweets/tweets'))
+  },
+  // 系统管理 -- 广告位管理-- 商城活动页管理
+  {
+    path: '/public/activitypage',
+    component: asyncComponent(() => import('container/public/activitypage/activitypage'))
   },
   // 财务管理 -- 平台账户 -- 分销规则设置
   {
